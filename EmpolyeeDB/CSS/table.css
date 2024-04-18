@@ -1,0 +1,44 @@
+.db_con_msg {
+    background-color: rgb(46,72,116);
+    color: rgb(244,234,222);
+    padding: 4px;
+    text-align: center;
+}
+
+#employee {
+    font-family: "Josefin Sans", sans-serif;
+    border-collapse: collapse;
+    width: 75%;
+    margin: 25px auto 25px auto;    
+}
+
+#employee td, th {
+    border: 1px solid rgb(126,171,164);
+
+}
+
+#employee tr {
+    background-color: rgb(244,234,222);
+    text-align: center;
+    padding: 3px;
+}
+
+
+#employee th {
+    width: 150px;
+    padding: 4px;
+    text-align: center;
+    background-color: rgb(46,72,116);
+    color: rgb(244,234,222);
+}
+
+
+#employee td {
+    vertical-align: middle;
+}
+
+img {
+    width: 20%;
+    display: block; 
+    margin: 0 auto;
+}

@@ -1,0 +1,90 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+}
+
+html {
+    font-family: "Josefin Sans", sans-serif;
+    background-image: linear-gradient(to left, rgb(244,234,222), rgb(126,171,164));
+}
+
+header {
+    width: 100%;
+    height: 110px;
+    background-color:rgb(52,54,53);
+    position: sticky;
+    top: 0;
+}
+
+.logo {
+    width: 90px;
+    height: auto; 
+    float: left;
+    margin: 10px 15px 5px 25px;
+}
+
+#company_name {
+    color: rgb(244,234,222);;
+    float: left;
+    font-size: 46pt;
+    margin-top: 25px;
+}
+
+.nav_group ul {
+    list-style-type: none;
+    padding: 0;
+    text-align: left;
+    float: right;
+    margin: 15px 70px;
+}
+
+.nav_group ul li{
+    display: block;
+}
+
+.nav_group p, a {
+    color: rgb(244,234,222);
+    text-decoration: none;
+}
+
+a:hover {
+    color: red;  
+}
+
+.home_title {
+    padding: 5px;
+    margin: 15px;
+    text-align: center;
+}
+
+.ops {
+    font-family: "Josefin Sans", sans-serif;
+    width: 190px;
+    padding: 10px;
+    margin: 5px auto 15px auto;
+    color: rgb(244,234,222);
+    border-radius: 8px;
+    text-align: center;
+    background-color: rgb(52,54,53);
+}
+
+.ops a {
+    color: rgb(244,234,222);
+}
+
+.ops:hover{
+    background-color:  rgb(97, 99, 98);
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+.footer {
+    position: fixed;
+    width: 100%;
+    height: 50px;
+    padding: 5px;
+    margin-top: 50px;
+    bottom: 0;
+    color: rgb(244,234,222);
+    background-color:rgb(52,54,53);
+}

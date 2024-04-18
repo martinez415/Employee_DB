@@ -1,0 +1,43 @@
+/* Insert form*/
+
+form {
+    margin: 25px auto 25px auto;
+    padding: 25px;
+    width: 40%;
+    border: 5px groove rgb(52,54,53);
+    background-color: rgba(46,72,116, 0.5);
+}
+
+fieldset { 
+    border: 2px groove rgb(52,54,53);
+}
+
+.form_title {
+    text-align:center;
+}
+
+.input_group {
+    margin: 15px;
+}
+
+input {
+    border-radius: 8px;
+    background-color: rgb(244,234,222);
+}
+
+.input_btn {
+    font-family: "Josefin Sans", sans-serif;
+    width: 90px;
+    padding: 3px;
+    font-size: 14px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color: rgb(244,234,222);
+    border: none;
+    border-radius: 8px;
+    background-color: rgb(52,54,53);
+}
+
+
